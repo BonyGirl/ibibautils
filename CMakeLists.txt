@@ -3,6 +3,7 @@ project(libibautils)
 
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_CXX_FLAGS:STRING=-fPIC)
 
 add_definitions(-Wall -std=c++0x -fPIC)
 
