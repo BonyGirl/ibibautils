@@ -1,10 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(libibautils)
 
-set(CMAKE_C_COMPILER "gcc") 
-set(CMAKE_CXX_COMPILER "g++") 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC" ) 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC" )
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
 
