@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(libibautils)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC") 
-set(CMAKE_C_FLAGS "$CMAKE_C_FLAGS -fPIC")
+set(CMAKE_CXX_FLAGS "-fPIC -g -Wall -Wextra -Wunused -pipe -std=c++0x") 
+set(CMAKE_C_FLAGS "-fPIC -g -Wall -Wextra -Wunused -pipe -std=c++0x")
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
 add_library(cpp-lib SHARED ${CPP_FILES})
